@@ -6,7 +6,6 @@ import './styles/form.sass'
 import './styles/header.sass'
 import './styles/resets.sass'
 
-console.log(checkForName);
-
-alert("I EXIST")
-console.log("CHANGE!!");
+export {
+    checkForName, handleSubmit
+}
